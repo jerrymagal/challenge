@@ -16,8 +16,8 @@ Make sure you have the following software installed:
 To clone the repository, run the following command in the terminal:
 
 ```sh
-git clone <REPOSITORY_URL>
-cd <REPOSITORY_NAME>
+git clone git@github.com:jerrymagal/challenge.git
+cd challenge
 ```
 
 ## Building and Running the Application
