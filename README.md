@@ -27,7 +27,7 @@ cd challenge
 To build the project and generate the JAR file, run the following command:
 
 ```sh
-./mvnw clean package -DskipTests
+./mvnw clean package test
 ```
 
 ### Step 2: Run the Application
@@ -39,14 +39,6 @@ java -jar target/challenge-0.0.1-SNAPSHOT.jar
 ```
 
 The application will be running on port 8080.
-
-## Running Tests
-
-To run all tests (unit and integration), use the following command:
-
-```sh
-./mvnw test
-```
 
 ## Changing the Server Port
 
